@@ -13,3 +13,8 @@ while k != 0:
     arr2.append(num)
 print(arr2)
 
+y = random.random()
+print(f'Случайное число от 0.0 до 1.0 - {y} {type(y)}')
+
+z = random.uniform(0.2, 7.5)
+print(f'Случайное число от 0.2 до 7.5 - {z} {type(z)}')
