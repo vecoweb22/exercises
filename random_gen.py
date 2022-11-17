@@ -8,7 +8,8 @@ k = 3
 arr2 = []
 while k != 0:
     k -= 1
-    print('Моё число/строка', random.choice(arr))
-    arr2.append(random.choice(arr))
+    num = random.choice(arr)
+    print('Моё число/строка', num)
+    arr2.append(num)
 print(arr2)
 
