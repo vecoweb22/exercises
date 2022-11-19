@@ -15,3 +15,12 @@ hcf = calc_hcf(a, b)
 lcm = a * b / hcf
 print(f'Наибольший общий делитель (НОД) = {hcf}')
 print(f'Наименьшее общее кратное (НОК) = {lcm}')
+
+# ==== Код нахождения НОД вычитанием
+
+while a != b:
+    if a > b:
+        a = a - b
+    else:
+        b = b - a
+print(a)
